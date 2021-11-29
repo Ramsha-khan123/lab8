@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace lab_7
+{
+    public class TownToLocation : iMap
+    {
+        public string name
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public double x
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public double y
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public void Clear()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void JumpToLocation(int x, int y)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
